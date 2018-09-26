@@ -1,0 +1,52 @@
+body,html{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	padding: 0;
+	list-style: none;
+}
+.carouselbox{
+	width: 600px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.carouselbox ul{
+	width: 500px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.carouselbox ul li{
+	display: inline-block;
+}
+img{
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* swiper-container  */
+.swiper-box {
+	margin-top: 30px;
+	width: 700px;
+	margin: 30px auto 0 auto;
+	position: relative;
+}
+.swiper-container{
+	margin-top: 30px;
+	width: 600px;
+	height: 140px;
+}
+.swiper-slide{
+	width: 100px;
+	border-radius: 100%;
+	transition: all .5s linear;
+}
+.swiper-slide.swiper-slide-active{
+	transform: scale(1.3);
+}
